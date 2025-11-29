@@ -104,7 +104,7 @@ jobs:
       - name: Deploy to Pages Repository
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.PAGES_DEPLOY_KEYS }}
           # source branch/directory:
           publish_dir: ./public
           external_repository: wireflowio/wireflowio.github.io
