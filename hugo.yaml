@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://wireflowio.github.io
 languageCode: en-us
 title: Wireflow
 module:
@@ -73,13 +73,9 @@ menu:
       params:
         type: link
         icon: beaker
-    - identifier: v0.10
-      name: v0.10 ↗
-      url: https://wireflowio.github.io/wireflow/versions/v0.10/
-      parent: versions
     - identifier: v0.9
       name: v0.9 ↗
-      url: https://wireflowio.github.io/wireflow/versions/v0.9/
+      url: https://wireflowio.github.io/wireflow/versions/v0.1/
       parent: versions
 
   sidebar:
@@ -92,13 +88,9 @@ menu:
       name: "About"
       pageRef: "/about"
       weight: 2
-    # - identifier: hugoDocs
-    #   name: "Hugo Docs ↗"
-    #   url: "https://gohugo.io/documentation/"
-    #   weight: 3
 
 params:
-  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
+  description: "Wireflow is a greatest tool for building wireguard tunnels with ease."
 
   externalLinkDecoration: true
 

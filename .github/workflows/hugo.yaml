@@ -101,6 +101,14 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Deploy to Pages Repository
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # source branch/directory:
+          publish_dir: ./public
+          external_repository: wireflowio/wireflowio.github.io
+          publish_branch: gh-pages # 将编译后的静态文件推送到 gh-pages 分支
+          keep_files: false         # 清理旧文件
+          force_orphan: true        # 单提交历史
+          commit_message: "Pages update: ${{ github.sha }}"
