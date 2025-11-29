@@ -6,6 +6,10 @@ module:
     - path: github.com/imfing/hextra
 defaultContentLanguage: en
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 markup:
   # allow raw html
   goldmark:
