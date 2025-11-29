@@ -15,7 +15,7 @@ defaults:
   run:
     shell: bash
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     env:
       DART_SASS_VERSION: 1.93.2
@@ -94,13 +94,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
       - name: Deploy to Pages Repository
         uses: peaceiris/actions-gh-pages@v4
         with:
