@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: getting started
 weight: 1
 ---
 # Introduction to Wireflow

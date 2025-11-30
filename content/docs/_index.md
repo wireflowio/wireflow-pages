@@ -30,7 +30,7 @@ Have a question or feedback? Feel free to [open an issue](https://github.com/wir
 Dive right into the following section to get started:
 
 {{< cards >}}
-{{< card link="getting-started" title="Getting Started" icon="document-text" subtitle="Learn how to use wireflow" >}}
+{{< card link="getting_started" title="Getting Started" icon="document-text" subtitle="Learn how to use wireflow" >}}
 {{< /cards >}}
 
 [wireflow]: https://github.com/wireflowhq/wireflow
