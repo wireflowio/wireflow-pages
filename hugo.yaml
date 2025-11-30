@@ -50,13 +50,13 @@ menu:
       name: About
       pageRef: /about
       weight: 4
-    - identifier: showcase
-      name: Showcase
-      pageRef: /showcase
-      weight: 5
-      params:
-        type: link
-        icon: collection
+#    - identifier: showcase
+#      name: Showcase
+#      pageRef: /showcase
+#      weight: 5
+#      params:
+#        type: link
+#        icon: collection
     - name: Search
       weight: 6
       params:
@@ -68,14 +68,14 @@ menu:
         icon: github
     - identifier: development
       name: Development ↗
-      url: https://wireflowio.github.io/wireflow/versions/latest/
+      url: https://wireflowio.github.io/docs/versions
       parent: versions
       params:
         type: link
         icon: beaker
-    - identifier: v0.9
-      name: v0.9 ↗
-      url: https://wireflowio.github.io/wireflow/versions/v0.1/
+    - identifier: v0.1
+      name: v0.1 ↗
+      url: /docs/versions/v0.1
       parent: versions
 
   sidebar:
