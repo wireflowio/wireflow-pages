@@ -42,10 +42,10 @@ layout: hextra-home
 <div class="hx:mb-12">
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Remote Workforces"
+    title="Remote Workforces & "
     subtitle="Enable secure remote access for employees, contractors, and partners with ease."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    image="images/remote-workforces.webp"
+    image="images/remote-working.png"
     imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
   >}}
@@ -53,7 +53,7 @@ layout: hextra-home
     title="IoT & Edge Networking"
     subtitle="Securely connect and manage IoT devices and edge locations across distributed environments."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
-    image="images/hextra-markdown.webp"
+    image="images/iot-edge.png"
     imageClass="hx:top-[40%] hx:left-[36px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
   >}}
@@ -61,7 +61,7 @@ layout: hextra-home
     title="Multi-Cluster Connectivity"
     subtitle="Seamlessly connect and manage multiple Kubernetes clusters with ease."
     class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    image="images/hextra-search.webp"
+    image="images/mutiple-cluster.png"
     imageClass="hx:top-[40%] hx:left-[36px] hx:w-[110%] hx:sm:w-[110%] hx:dark:opacity-80"
     style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
   >}}
